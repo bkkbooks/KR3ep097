@@ -1,0 +1,77 @@
+canonical_identifier: bkk:krp/KR3ep097/v1
+canonical_location: https://kanripo.org/bkk/KR3ep097/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 推篷寤語
+  identifiers:
+    krp: KR3ep097
+  tags:
+    kr-categories: KR3ep
+    tls-dates: dat04250
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ep097.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3ep097_000.yaml, hash: 'sha256:17d094a87434497e2e9a263d7a3cac46746cd0c6fdf6b3140632e26527bb55b7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ep097_000.markers.yaml, hash: 'sha256:227b1462a90eea9f71ac1a4b78ee256a146e30884ec245fc6d64b3cdcb83acb8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ep097_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 670
+  label: 推篷寤語序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep097_jc_000-d3.h1s1
+    span:
+    - body
+    - 0
+    - 579
+  label: 推篷寤語自敘
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep097_jc_000-d4.h1s1
+    span:
+    - body
+    - 579
+    - 8368
+  label: 推篷寤語
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ep097_jc_000-d4d2
+    span:
+    - body
+    - 583
+    - 8368
+  label: 原養生之教
+  type: section
+  level: 2
+- ref:
+    seq: 0
+    marker_id: KR3ep097_jc_000-d5.h1s1
+    span:
+    - body
+    - 8368
+    - 8556
+  label: 跋寤語後
+  type: section
+  level: 1
+hash: sha256:2690920702ed9bf6b3ebea2c8cb3b4fc75b2ef2eeb59795aa4062f1f3f2edfcd
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
